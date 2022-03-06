@@ -50,7 +50,7 @@ import {Switch} from '../switch'
 // }
 
 /*******************************************************************************
- * Extra 1. 💯 create a consumer hook
+ * Extra 1. 💯 Support DOM component children
  ******************************************************************************/
 function Toggle({children}) {
   const [on, setOn] = React.useState(false)
